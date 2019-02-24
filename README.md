@@ -6,6 +6,7 @@ js 101
 2- ES5 Run with http-server
 3- ES6(ES2015) to ES5 with Babel
 4- Webpack
+5- Webpack with webpack-dev-server
 
 
 # Tools
