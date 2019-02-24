@@ -7,8 +7,12 @@ js 101
 * 3- ES6(ES2015) to ES5 with Babel
 * 4- Webpack
 * 5- Webpack with webpack-dev-server
-* 6- Webpack with Babel
+* 6- Webpack with Plugins
+* 7- Webpack with Babel
+* 8- Webpack with tsc and Babel
+* 9- Webpack with ts loader
 
+* Typescript
 
 # Tools
 * Babel = tool for ES2015 to ES5 translator
