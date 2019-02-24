@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "main": "",
     "scripts": {
-        "start": "babel app.js -o es6.js",
+        "start": "babel app.js -o es5.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "devDependencies": {
