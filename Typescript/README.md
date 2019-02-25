@@ -14,3 +14,5 @@ and add
 
 Sources:
 https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
+https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+http://json.schemastore.org/tsconfig
