@@ -1,6 +1,12 @@
 # js
 js modules
 
+**JavaScript Module Fundamentals**
+*by Brice Wilson*
+
+JavaScript applications have grown increasingly complex. This course will teach you the basics of writing modular, maintainable JavaScript using popular formats, loaders, and bundlers.
+
+
 ![Screenshot](./1module-cons.png)
 ![Screenshot](./2format.png)
 ![Screenshot](./3format.png)
