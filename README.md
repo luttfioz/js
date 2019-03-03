@@ -14,6 +14,16 @@ js 101
 
 * Typescript
 
-# Tools
+# Tools & 
 * Babel = tool for ES2015 to ES5 translator
 * Webpack = tool for Module Bundler
+
+* RequireJS = tool for Module Loader ()
+* SystemJS = tool for Module Loader
+
+* AMD = Module Format (define)
+* CommonJs = Module Format (require - exports)
+
+
+----
+ES6(Native) -> Commonjs(ES5)
