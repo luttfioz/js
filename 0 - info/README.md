@@ -7,3 +7,5 @@ js modules
 ![Screenshot](./4loader.png)
 ![Screenshot](./5amd-format.png)
 ![Screenshot](./6commonjs-format.png)
+![Screenshot](./7module-workflow.png)
+![Screenshot](./8import-syntax.png)
