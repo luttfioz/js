@@ -1,5 +1,6 @@
 # js
 js modules
+JavaScript is a loosely typed language and so a variable can have different types assigned.  
 
 ![Screenshot](./1module-cons.png)
 ![Screenshot](./2format.png)
