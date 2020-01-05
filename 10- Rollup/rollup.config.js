@@ -2,10 +2,8 @@ import babel from 'rollup-plugin-babel';
 import resolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
 
+const dependencies = Object.keys(require('./package.json').dependencies)
 const format = 'iife';
-// const format = 'esm';
-// const format = 'amd';
-// const format = 'cjs';
 
 export default {
   input: './index.js',
@@ -13,6 +11,9 @@ export default {
     {
       format,
       file: `dist/index.min.js`,
+      globals: {
+        'lodash': '_',
+      }
     }, {
       format: 'esm',
       file: `dist/index.esm.js`
@@ -22,6 +23,13 @@ export default {
     }, {
       format: 'cjs',
       file: `dist/index.cjs.js`
+    }, {
+      format: 'umd',
+      file: `dist/index.umd.js`,
+      name: 'distumd'
+    }, {
+      format: 'system',
+      file: `dist/index.system.js`,
     }
   ],
   plugins: [
@@ -30,5 +38,7 @@ export default {
     }),
     resolve(),
     commonjs()
-  ]
+  ],
+  // external: ['lodash'],
+  // external: dependencies,
 }
