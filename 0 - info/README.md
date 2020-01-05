@@ -1,5 +1,6 @@
 # js
 js modules
+JavaScript is a loosely typed language and so a variable can have different types assigned.  
 
 **JavaScript Module Fundamentals**
 *by Brice Wilson*
