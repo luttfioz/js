@@ -1,3 +1,5 @@
 import sayHello from './module';
+import _ from 'lodash';
 
-sayHello('Hello from Rollup');
+const arr = _.concat([1, 2, 3], 4, [5]);
+sayHello('Hello from Rollup and lodash: ' + arr);
