@@ -1,8 +1,16 @@
+import babel from 'rollup-plugin-babel';
+
+const format = 'iife';
+
 export default {
   input: './index.js',
   output: {
-    file: './build/index.min.js',
-    format: 'iife',
-    name: 'index'
-  }
+    format,
+    file: `dist/index.min.js`
+  },
+  plugins: [
+    babel({
+      exclude: 'node_modules/**'
+    })
+  ]
 }
