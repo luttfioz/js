@@ -1,0 +1,21 @@
+{
+    "HEADERS": {
+        "CONSTANT": {
+            "Accept": "application/json",
+            "Content-Type": "application/json"
+        },
+        "DEFAULT": {},
+        "MUST": [
+            "Authorization",
+            "guid",
+            "channel",
+            "ip",
+            "userId",
+            "dialect"
+        ]
+    },
+    "ALLOWED_METHODS": [
+        "get",
+        "post"
+    ]
+}
